@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/imagenfondo3"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-100dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/milk_cream"
+        android:letterSpacing="0.1"
+        android:shadowColor="#F44336"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="10"
+        android:text="Man's Rage"
+        android:textColor="#EFE676"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro de Usuario"
+        android:fontFamily="@font/milk_cream"
+        android:textSize="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/etEmailRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email/Correo"
+        android:textColor="@color/black"
+        android:background="@color/fondo"
+        android:padding="10dp" />
+
+
+
+    <EditText
+        android:id="@+id/etPassRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="Contraseña"
+        android:textColor="@color/black"
+        android:background="@color/fondo"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/boton"
+        android:textColor="@color/black"/>
+</LinearLayout>
